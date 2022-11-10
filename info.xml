@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<extension key="com.skvare.priceset" type="module">
+  <file>priceset</file>
+  <name>Price Field option for min and max amount setting</name>
+  <description>Price Field option for min and max amount setting</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Sunil Pawar</author>
+    <email>sunil@skvare.com</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/Skvare/com.skvare.priceset</url>
+    <url desc="Documentation">https://github.com/Skvare/com.skvare.priceset</url>
+    <url desc="Support">https://github.com/Skvare/com.skvare.priceset</url>
+    <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2022-11-10</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.0</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Priceset</namespace>
+    <angularModule>crmPriceset</angularModule>
+  </civix>
+</extension>
